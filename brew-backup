@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+echo '#!/usr/bin/env sh'
+echo '# brew-backup on' `date`
+echo '\n# taps'
+brew tap | sed 's/^/brew tap /g'
+echo '\n# packages'
+brew list | grep -v "(!)" | sed 's/^/brew install /g'
+if [ -e /usr/local/Library/Taps/caskroom ]; then
+  echo '\n# casks'
+  brew cask list | grep -v "(!)" | sed 's/^/brew cask install /g'
+fi
