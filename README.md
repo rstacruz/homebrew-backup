@@ -59,3 +59,5 @@ brew install https://raw.githubusercontent.com/rstacruz/brew-backup/master/homeb
   brew cask install dropbox
   ...
   ```
+
+NB: API still subject to change
