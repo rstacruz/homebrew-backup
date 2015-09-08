@@ -7,9 +7,9 @@ brew-backup
 
 Creates the following files:
 
-- `<your host>/brew.sh` — List of [Homebrew] packages
-- `<your host>/cask.sh` - List of cask packages, if [Cask] is installed
-- `<your host>/index` - List of versions
+- `brew.sh` — List of [Homebrew] packages
+- `cask.sh` - List of cask packages, if [Cask] is installed
+- `index` - List of versions
 
 On a different machine, you can run `brew.sh` and `cask.sh` to reinstall the same packages.
 

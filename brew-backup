@@ -1,14 +1,10 @@
 #!/usr/bin/env sh
-host=$(hostname | sed 's/\.local//' | tr A-Z a-z)
 ok="\033[32m✓\033[0m"
 
 if ! which brew >/dev/null; then
   echo "Homebrew not installed"
   exit 1
 fi
-
-mkdir -p "$host"
-echo "$host/"
 
 (
   echo '#!/usr/bin/env sh'
@@ -22,7 +18,7 @@ echo "$host/"
       echo brew install $(echo $f | sed 's/ .*$//')
     fi
   done
-) > "$host/brew.sh"
+) > brew.sh
 echo "$ok brew.sh"
 
 if [ -e /usr/local/Library/Taps/caskroom ]; then
@@ -33,7 +29,7 @@ if [ -e /usr/local/Library/Taps/caskroom ]; then
     echo "brew install caskroom/cask/brew-cask"
     echo '\n# casks'
     brew cask list | grep -v "(!)" | sed 's/^/brew cask install /g'
-  ) > "$host/cask.sh"
+  ) > cask.sh
   echo "$ok cask.sh"
 fi
 
@@ -47,5 +43,5 @@ fi
     echo '\ncask:'
     brew cask list --versions | sed 's/^/- /g'
   fi
-) > "$host/index"
+) > index
 echo "$ok index"
