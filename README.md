@@ -25,6 +25,7 @@ On a different machine, you can run `brew.sh` and `cask.sh` to reinstall the sam
 
   ```sh
   # taps
+  brew tap homebrew/versions
   brew tap neovim/neovim
   
   # packages
@@ -41,6 +42,7 @@ On a different machine, you can run `brew.sh` and `cask.sh` to reinstall the sam
   brew tap caskroom/cask
   brew tap caskroom/fonts
   brew install caskroom/cask/cask
+
   # casks
   brew cask install alfred
   brew cask install appcleaner
