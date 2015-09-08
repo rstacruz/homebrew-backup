@@ -19,6 +19,14 @@ On a different machine, you can run `brew.sh` and `cask.sh` to reinstall the sam
 
 <br>
 
+## Install
+
+```
+brew install https://raw.githubusercontent.com/rstacruz/brew-backup/master/homebrew/brew-backup.rb --HEAD
+```
+
+<br>
+
 ## Examples
 
  - Example `brew.sh`:
