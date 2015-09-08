@@ -13,6 +13,8 @@ Creates the following files:
 
 On a different machine, you can run `brew.sh` and `cask.sh` to reinstall the same packages.
 
+Optional, but recommended: commit these files into a Git repo and share them to the world!
+
 [Homebrew]: http://brew.sh/
 [Cask]: http://caskroom.io/
 
