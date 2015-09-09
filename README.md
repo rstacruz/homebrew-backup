@@ -18,6 +18,14 @@ Optional, but recommended: commit these files into a Git repo and share them to 
 [Homebrew]: http://brew.sh/
 [Cask]: http://caskroom.io/
 
+<br>
+
+## Installation
+
+```
+brew tap rstacruz/backup
+brew backup
+```
 
 <br>
 
@@ -53,3 +61,18 @@ Optional, but recommended: commit these files into a Git repo and share them to 
   ```
 
 NB: API still subject to change
+
+<br>
+
+Thanks
+------
+
+**brew-backup** © 2015+, Rico Sta. Cruz. Released under the [MIT] License.<br>
+Authored and maintained by Rico Sta. Cruz with help from contributors ([list][contributors]).
+
+> [ricostacruz.com](http://ricostacruz.com) &nbsp;&middot;&nbsp;
+> GitHub [@rstacruz](https://github.com/rstacruz) &nbsp;&middot;&nbsp;
+> Twitter [@rstacruz](https://twitter.com/rstacruz)
+
+[MIT]: http://mit-license.org/
+[contributors]: http://github.com/rstacruz/brew-backup/contributors
