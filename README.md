@@ -1,8 +1,9 @@
-# brew-backup
+# homebrew-backup
 Backs up your [Homebrew] profile.
 
 ```sh
-brew-backup
+brew tap rstacruz/backup
+brew backup
 ```
 
 Creates the following files:
@@ -17,15 +18,6 @@ Optional, but recommended: commit these files into a Git repo and share them to 
 
 [Homebrew]: http://brew.sh/
 [Cask]: http://caskroom.io/
-
-<br>
-
-## Installation
-
-```
-brew tap rstacruz/backup
-brew backup
-```
 
 <br>
 
