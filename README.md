@@ -21,14 +21,6 @@ Optional, but recommended: commit these files into a Git repo and share them to 
 
 <br>
 
-## Install
-
-```
-brew install https://raw.githubusercontent.com/rstacruz/brew-backup/master/homebrew/brew-backup.rb --HEAD
-```
-
-<br>
-
 ## Examples
 
  - Example `brew.sh`:
