@@ -26,7 +26,6 @@ if [ -e /usr/local/Library/Taps/caskroom ]; then
     echo '#!/usr/bin/env sh'
     echo '\n# taps'
     brew tap | grep cask | sed 's/^/brew tap /g'
-    echo "brew install caskroom/cask/brew-cask"
     echo '\n# casks'
     brew cask list | grep -v "(!)" | sed 's/^/brew cask install /g'
   ) > cask.sh
