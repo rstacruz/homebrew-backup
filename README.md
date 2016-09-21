@@ -1,9 +1,9 @@
 # homebrew-backup
 > Back up your Homebrew profile
 
-## Deprecation notice
+## :warning: Deprecation notice
 
-:warning: As of [Homebrew v1.0.0](http://brew.sh/2016/09/02/homebrew-1.0.0/), Homebrew now comes with a `brew bundle dump` command. homebrew-backup continues to be functional, but I recommend moving to `brew bundle` instead.
+As of [Homebrew v1.0.0](http://brew.sh/2016/09/02/homebrew-1.0.0/), Homebrew now comes with a `brew bundle dump` command. homebrew-backup continues to be functional, but I recommend moving to `brew bundle` instead.
 
 ## Introduction
 
